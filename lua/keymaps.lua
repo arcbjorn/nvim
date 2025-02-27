@@ -82,6 +82,9 @@ map('i', '<D-S-z>', '<C-O><C-r>', opts)
 -- Close nvim instance
 map('n', '<A-S-q>', ':qall<CR>', opts)
 
+-- Open Git
+map('n', '<leader>gg', ':Neogit<CR>', opts)
+
 -- Comment toggle
 map('n', '<D-/>', function()
   local comment_api = utils.safely_require('Comment.api')
