@@ -21,6 +21,9 @@ We'll use the following structure to organize our configuration:
     ├── treesitter.lua       # Syntax highlighting
     ├── telescope.lua        # Fuzzy finder
     ├── gitsigns.lua         # Git integration
+    ├── neogit.lua           # Git UI
+    ├── diffview.lua         # Git Diff view
+    ├── which-key.lua        # Keymaps helper
     └── barbar.lua           # Tab management
 ```
 
@@ -162,3 +165,6 @@ To modify keybindings:
 ## 10. Notes
 
 - MacOS: If using Ghosty terminal, Command key works natively with `<D-key>` mappings
+- Ghostty terminal
+    - theme = GruvboxDarkHard
+    - macos-option-as-alt = true
